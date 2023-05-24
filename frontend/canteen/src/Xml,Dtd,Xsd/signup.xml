@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SignUp [
+<!ELEMENT SignUp (User+)>
+<!ELEMENT User (Name,Email,Phone,Password,ConfirmPassword)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT ConfirmPassword (#PCDATA)>
+<!ATTLIST User id ID (#REQUIRED)>
+]>
+
+<?xml-model href="signup.xsd"?>
+<SignUp>
+    <User id="123">
+    <Name>Sandeep</Name>
+        <Email>customer1@gmail.com</Email>
+        <Phone>7780537716</Phone>
+        <Password>Password123</Password>
+        <ConfirmPassword>Password123</ConfirmPassword>
+    </User>
+    <User id="456">
+        <Name>chandra</Name>
+        <Email>customer2@gmail.com</Email>
+        <Phone>9087654321</Phone>
+        <Password>Password012</Password>
+        <ConfirmPassword>Password012</ConfirmPassword>
+    </User>
+    <User id="789">
+        <Name>Maddipati</Name>
+        <Email>customer3@gmail.com</Email>
+        <Phone>9999999999</Phone>
+        <Password>PassWord</Password>
+        <ConfirmPassword>PassWord</ConfirmPassword>
+    </User>
+</SignUp>

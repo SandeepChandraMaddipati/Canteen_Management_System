@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<!DOCTYPE UpdateProfile [
+<!ELEMENT UpdateProfile (Profile)*>
+<!ELEMENT Profile (Email,UserName,Phone)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT UserName ( #PCDATA )>
+<!ELEMENT Phone (#PCDATA)>
+<!ATTLIST UserName #REQUIRED>
+]>
+<UpdateProfile>
+    <Profile id="s1" db_id="e123456">
+      
+      
+        <Email> customer1@gmail.com </Email>
+
+         <UserName updation="yes">
+             sandeep
+        </UserName>
+
+        <Phone>9392475566</Phone>
+
+    </Profile>  
+    
+    
+</UpdateProfile>

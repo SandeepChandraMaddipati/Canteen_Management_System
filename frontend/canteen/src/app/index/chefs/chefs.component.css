@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+.img-fluid{
+  transition: 0.4s ease;
+}
+.img-fluid:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
+}
+
+h4{
+  font-family: Poppins, sans-serif;
+  letter-spacing: 2px;
+  margin-top: 2px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+h2{
+
+  font-family: "Kaushan Script", cursive;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 2px;
+  color:#2f2e41;
+  text-shadow:#F8C44C 2px 2px 2px;
+}
+
+@media (max-width: 1213px) {
+  h4{
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 1013px) {
+  h4{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  h2{
+    font-size: 50px;
+  }
+}
+@media (max-width: 400px) {
+  h2{
+    font-size: 40px;
+  }
+}

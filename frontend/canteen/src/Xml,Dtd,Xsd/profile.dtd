@@ -1,0 +1,7 @@
+<!ELEMENT UpdateProfile (Profile)*>
+<!ELEMENT Profile (Email,UserName,Phone)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT UserName ( #PCDATA )>
+<!ELEMENT Phone (#PCDATA)>
+<!ATTLIST Email #REQUIRED>
+]>

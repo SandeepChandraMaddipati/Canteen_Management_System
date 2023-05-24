@@ -1,0 +1,7 @@
+<!DOCTYPE note
+[
+<!ELEMENT rating (name,feedback)>
+<!ELEMENT name PCDATA #REQUIRED>
+<!ELEMENT feedback (#PCDATA)>
+
+]>
